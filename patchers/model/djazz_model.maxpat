@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 529.0, 308.0, 748.0, 523.0 ],
+		"rect" : [ 452.0, 206.0, 621.0, 469.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -113,7 +113,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 4,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -159,7 +159,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -340,7 +340,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 4,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -706,7 +706,14 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"master::params" : 0
+						"master::params" : 0,
+						"master::params::loop_section_beats" : 0,
+						"master::params::start_beat" : 0,
+						"master::params::end_beat" : 0,
+						"master::params::tempo" : 0,
+						"master::params::metro" : 0,
+						"master::params::loop_section_active" : 0,
+						"master::params::song_dict_name" : 0
 					}
 ,
 					"id" : "obj-1",
@@ -717,7 +724,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 749.0, 105.228516000000013, 123.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 436, 100, 1006, 1246 ],
+						"client_rect" : [ -2569, -92, -1510, 1054 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
