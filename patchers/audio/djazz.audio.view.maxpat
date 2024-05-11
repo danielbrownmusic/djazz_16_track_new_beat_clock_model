@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 533.0, 547.0, 1157.0, 471.0 ],
+		"rect" : [ 114.0, 225.0, 991.0, 612.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,129 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"appversion" : 						{
+							"major" : 8,
+							"minor" : 5,
+							"revision" : 4,
+							"architecture" : "x64",
+							"modernui" : 1
+						}
+,
+						"classnamespace" : "box",
+						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"bglocked" : 0,
+						"openinpresentation" : 0,
+						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"gridonopen" : 1,
+						"gridsize" : [ 15.0, 15.0 ],
+						"gridsnaponopen" : 1,
+						"objectsnaponopen" : 1,
+						"statusbarvisible" : 2,
+						"toolbarvisible" : 1,
+						"lefttoolbarpinned" : 0,
+						"toptoolbarpinned" : 0,
+						"righttoolbarpinned" : 0,
+						"bottomtoolbarpinned" : 0,
+						"toolbars_unpinned_last_save" : 0,
+						"tallnewobj" : 0,
+						"boxanimatetime" : 200,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"description" : "",
+						"digest" : "",
+						"tags" : "",
+						"style" : "",
+						"subpatcher_template" : "",
+						"assistshowspatchername" : 0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"format" : 6,
+									"id" : "obj-23",
+									"maxclass" : "flonum",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "bang" ],
+									"parameter_enable" : 0,
+									"patching_rect" : [ 76.0, 178.656252578805947, 50.0, 22.0 ],
+									"varname" : "number[6]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-10",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 50.0, 100.0, 71.0, 35.0 ],
+									"restore" : [ 84.0 ],
+									"saved_object_attributes" : 									{
+										"parameter_enable" : 0,
+										"parameter_mappable" : 0
+									}
+,
+									"text" : "pattr volume_in",
+									"varname" : "volume_in"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-8",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "float" ],
+									"patching_rect" : [ 75.999995779788946, 40.000001611488344, 30.0, 30.0 ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-10", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 363.833317220211086, 83.166665999999992, 53.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"description" : "",
+						"digest" : "",
+						"globalpatchername" : "",
+						"tags" : ""
+					}
+,
+					"text" : "p record",
+					"varname" : "record"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-5",
 					"maxclass" : "comment",
@@ -183,7 +306,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -402,7 +525,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -623,7 +746,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -750,7 +873,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1076,40 +1199,6 @@
 			}
 , 			{
 				"box" : 				{
-					"format" : 6,
-					"id" : "obj-23",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 354.833317220211029, 93.822918967317605, 50.0, 22.0 ],
-					"varname" : "number[6]"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-10",
-					"linecount" : 2,
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 328.833317220211029, 15.166666388511658, 71.0, 35.0 ],
-					"restore" : [ 84.0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr volume_in",
-					"varname" : "volume_in"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-79",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1131,7 +1220,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1189,7 +1278,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1388,7 +1477,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1619,7 +1708,7 @@
 										"appversion" : 										{
 											"major" : 8,
 											"minor" : 5,
-											"revision" : 5,
+											"revision" : 4,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2293,7 +2382,7 @@
 						"appversion" : 						{
 							"major" : 8,
 							"minor" : 5,
-							"revision" : 5,
+							"revision" : 4,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2416,7 +2505,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
-					"items" : [ " ", ",", "Free4_2023.12.06-12-35-26", ",", "Free4_2023.12.06-14-32-50", ",", "Free4_2023.12.06-14-41-42", ",", "Free4_2023.12.06-14-46-45", ",", "Free4_2023.12.06-14-55-51", ",", "Free4_2023.12.06-15-01-26", ",", "Free4_2023.12.06-15-14-25", ",", "test_audio_impro" ],
+					"items" : [ " ", ",", "Free4_2023.12.06-12-35-26", ",", "Free4_2023.12.06-14-32-50", ",", "Free4_2023.12.06-14-38-04", ",", "Free4_2023.12.06-14-41-42", ",", "Free4_2023.12.06-14-46-45", ",", "Free4_2023.12.06-14-55-51", ",", "Free4_2023.12.06-15-01-26", ",", "Free4_2023.12.06-15-14-25", ",", "marc_audio_scores", ",", "test_audio_impro", ",", "unmapped_scores" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -2424,7 +2513,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 894.00000799999998, 75.474724908569328, 213.000000264373739, 22.0 ],
 					"pattrmode" : 1,
-					"prefix" : "~/Desktop/djazz_media/djazz_audio/",
+					"prefix" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/djazz_user/djazz_audio/",
 					"presentation" : 1,
 					"presentation_rect" : [ 69.946299425182815, 68.987648665904999, 262.544421287503951, 22.0 ],
 					"types" : "fold"
@@ -2552,13 +2641,6 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
-					"source" : [ "obj-10", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-111", 0 ]
 				}
@@ -2643,7 +2725,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-9", 0 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -2686,21 +2768,21 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "djazz.audio.view.improviser.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_with_audio/patchers/audio",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.audio.view.play.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_with_audio/patchers/audio",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.factor_oracle_player.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_with_audio/patchers/factor_oracle_player",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/factor_oracle_player",
 				"patcherrelativepath" : "../factor_oracle_player",
 				"type" : "JSON",
 				"implicit" : 1

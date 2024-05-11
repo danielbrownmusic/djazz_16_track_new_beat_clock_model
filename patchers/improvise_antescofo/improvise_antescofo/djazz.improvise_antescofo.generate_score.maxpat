@@ -56,7 +56,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -583,7 +583,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 119.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1177,7 +1177,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 248.0, 980.5, 145.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"text" : "pv #0_SCORE_DICT"
 								}
 
@@ -1202,7 +1201,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 256.0, 792.9112548828125, 173.0, 22.0 ],
-									"presentation_linecount" : 3,
 									"text" : "pv #0_FACTOR_ORACLE"
 								}
 
@@ -6431,7 +6429,25 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-3",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 477.0, 96.0, 211.0, 22.0 ],
+									"saved_object_attributes" : 									{
+										"filename" : "antecofo_score_to_channels_dict.js",
+										"parameter_enable" : 0
+									}
+,
+									"text" : "js antecofo_score_to_channels_dict.js"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-2",
 									"maxclass" : "newobj",
