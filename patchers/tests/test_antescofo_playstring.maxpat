@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 457.0, 280.0, 1629.0, 883.0 ],
+		"rect" : [ 148.0, 256.0, 1044.0, 738.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,12 +40,47 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 260.0, 415.981123566627502, 29.5, 22.0 ],
+					"text" : "200"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 260.0, 478.0, 562.0, 22.0 ],
+					"text" : "sprintf @tempovar $pos_to_play( %.2f\\, 1) whenever ($pos_to_play) { POS_OUT ($pos_to_play.tempo) }"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 426.0, 344.0, 50.0, 22.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 496.226438164710999, 34.981123566627502, 31.0, 22.0 ],
+					"patching_rect" : [ 234.226438164710999, 30.981123566627502, 31.0, 22.0 ],
 					"text" : "stop"
 				}
 
@@ -103,12 +138,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-35",
-					"linecount" : 8,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 538.320773839950562, 34.981123566627502, 86.433941781520844, 116.0 ],
+					"patching_rect" : [ 402.283029109239578, 34.981123566627502, 143.0, 76.0 ],
 					"text" : "\"@tempovar $pos_to_play(200, 1) whenever ($pos_to_play) { POS_OUT ($pos_to_play.tempo) }\""
 				}
 
@@ -267,6 +302,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
@@ -340,7 +382,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 505.726438164710999, 198.839618891477585, 46.556603729724884, 198.839618891477585 ],
+					"midpoints" : [ 243.726438164710999, 198.839618891477585, 46.556603729724884, 198.839618891477585 ],
 					"source" : [ "obj-43", 0 ]
 				}
 
