@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 254.0, 198.0, 1014.0, 605.0 ],
+		"rect" : [ 695.0, 110.0, 261.0, 250.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -54,6 +54,8 @@
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 390.0, 371.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 182.0, 100.0, 128.0, 128.0 ],
 					"varname" : "write",
 					"viewvisibility" : 1
 				}
@@ -1045,15 +1047,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "djazz.antescofo.improviser.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_antescofo/improvise_antescofo",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/improvise_antescofo",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "djazz.antescofo.write_improvised_score.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_audio_improvisers/patchers/improvise_antescofo/improvise_antescofo",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/improvise_antescofo/improvise_antescofo",
+				"patcherrelativepath" : "./improvise_antescofo",
 				"type" : "JSON",
 				"implicit" : 1
 			}

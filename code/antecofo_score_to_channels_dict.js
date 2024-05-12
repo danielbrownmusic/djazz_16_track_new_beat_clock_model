@@ -62,9 +62,32 @@ function read_score_file_(score_file)
         beat_count++;
     }
     set_beat_count_(beat_count);
+    remove_unused_channels_();
 }
 read_score_file_.local = 1;
 
+
+function remove_unused_channels_()
+{
+    channels_available_.forEach
+    (
+        function (channel)
+        {
+            if (channels_used_.indexOf(channel) == -1)
+            {
+                remove_channel_(channel);
+            }
+        }
+    )
+}
+remove_unused_channels_.local = 1;
+
+
+function remove_channel_(channel)
+{
+    score_dict_.remove(get_channel_key_(channel));
+}
+remove_channel_.local = 1;
 
 // BEAT --------------------------------------------------------------------
 
@@ -240,10 +263,17 @@ set_beat_.local = 1;
 function set_note_(channel, beat, note_dict)
 {
     score_dict_.append(get_notes_key_(channel, beat), note_dict);
-    post (get_notes_key_(channel, beat));
-    post (note_dict);
+    //post (get_notes_key_(channel, beat));
+    //post (note_dict);
 }
 set_note_.local = 1;
+
+
+function get_channel_key_(channel)
+{
+    return to_key_( SCORE_DICT.CHANNELS_KEY, 
+                    channel.toString());
+}
 
 
 function get_beat_key_(channel, beat)

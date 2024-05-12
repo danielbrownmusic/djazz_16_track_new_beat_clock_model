@@ -246,7 +246,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"comment" : "",
@@ -557,7 +556,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 118.499998927116394, 195.0, 80.0, 22.0 ],
+					"patching_rect" : [ 118.499998927116394, 192.0, 80.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
