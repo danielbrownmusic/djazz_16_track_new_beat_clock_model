@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 5,
+			"revision" : 4,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 495.0, 167.0, 1339.0, 566.0 ],
+		"rect" : [ 355.0, 167.0, 1339.0, 566.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -65,12 +65,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-41",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 823.0, 213.0, 124.0, 22.0 ],
-					"restore" : [ "1015_SONG_DICT_NAME" ],
+					"patching_rect" : [ 823.0, 213.0, 100.0, 35.0 ],
+					"restore" : [ "song_dict_name" ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0

@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 235.0, 122.0, 1021.0, 914.0 ],
+		"rect" : [ 355.0, 100.0, 901.0, 785.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,19 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"comment" : "",
+					"id" : "obj-5",
+					"index" : 1,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 261.0, 78.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "toggle",
@@ -270,11 +283,11 @@
 				"box" : 				{
 					"comment" : "view params (beat, tempo)",
 					"id" : "obj-3",
-					"index" : 2,
+					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 673.972220452442116, 1248.333337426186063, 30.0, 30.0 ]
+					"patching_rect" : [ 340.972220452442116, 1014.333337426186063, 30.0, 30.0 ]
 				}
 
 			}
@@ -307,7 +320,7 @@
 				"box" : 				{
 					"comment" : "bang",
 					"id" : "obj-9",
-					"index" : 1,
+					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -320,7 +333,7 @@
 				"box" : 				{
 					"comment" : "midi events out",
 					"id" : "obj-10",
-					"index" : 1,
+					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -515,6 +528,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-29", 0 ],
 					"source" : [ "obj-53", 0 ]
 				}
@@ -532,7 +552,7 @@
 					"destination" : [ "obj-4", 0 ],
 					"source" : [ "obj-7", 0 ],
 					"watchpoint_flags" : 1,
-					"watchpoint_id" : 6
+					"watchpoint_id" : 7
 				}
 
 			}
