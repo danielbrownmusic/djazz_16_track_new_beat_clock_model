@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 178.0, 573.0, 536.0, 515.0 ],
+		"rect" : [ 174.0, 472.0, 663.0, 515.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 53.0, 22.999999624999987, 30.0, 30.0 ]
+					"patching_rect" : [ 93.0, 22.999999624999987, 30.0, 30.0 ]
 				}
 
 			}
@@ -84,7 +84,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 13.0, 22.999999624999987, 30.0, 30.0 ]
+					"patching_rect" : [ 53.0, 22.999999624999987, 30.0, 30.0 ]
 				}
 
 			}
@@ -143,14 +143,7 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"master::params" : 0,
-						"master::params::loop_section_beats" : 0,
-						"master::params::start_beat" : 0,
-						"master::params::end_beat" : 0,
-						"master::params::tempo" : 0,
-						"master::params::metro" : 0,
-						"master::params::loop_section_active" : 0,
-						"master::params::song_dict_name" : 0
+						"master::params" : 0
 					}
 ,
 					"id" : "obj-1",
@@ -161,7 +154,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 645.0, 99.228516000000013, 123.0, 62.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1217, 100, 1680, 1009 ],
+						"client_rect" : [ 730, 100, 1193, 1009 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 583, 69, 1034, 197 ]
@@ -344,14 +337,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
+					"destination" : [ "obj-16", 1 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 1 ],
+					"destination" : [ "obj-16", 2 ],
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -382,8 +375,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-16", 2 ],
-					"midpoints" : [ 403.5, 144.0, 102.5, 144.0 ],
+					"destination" : [ "obj-16", 0 ],
+					"midpoints" : [ 403.5, 144.0, 22.5, 144.0 ],
 					"order" : 2,
 					"source" : [ "obj-6", 0 ]
 				}
