@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 288.0, 161.0, 1124.0, 977.0 ],
+		"rect" : [ 317.0, 102.0, 1575.0, 1136.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -205,7 +205,7 @@
 					"numoutlets" : 6,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal", "bang", "", "", "" ],
-					"patching_rect" : [ 95.194722926616663, 28.334687025591847, 1410.666645884513855, 939.369060039520264 ],
+					"patching_rect" : [ 95.194722926616663, 28.334687025591847, 1389.666645884513855, 868.369060039520264 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 3.00000011920929, 1.6666659116745, 1412.904748499393463, 925.999997019767761 ],
 					"varname" : "view",
@@ -281,7 +281,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 2 ],
-					"midpoints" : [ 1496.361368811130433, 1100.037080199763295, 1541.083616868654872, 1100.037080199763295, 1541.083616868654872, 17.334687025591847, 1032.472486849625966, 17.334687025591847 ],
+					"midpoints" : [ 1496.361368811130433, 1100.037080199763295, 1541.083616868654872, 1100.037080199763295, 1541.083616868654872, 17.334687025591847, 1018.472486849625966, 17.334687025591847 ],
 					"order" : 1,
 					"source" : [ "obj-57", 3 ]
 				}
@@ -290,7 +290,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-65", 1 ],
-					"midpoints" : [ 568.583604888121272, 1114.70374730353069, 35.430817346771562, 1114.70374730353069, 35.430817346771562, 6.668020041033742, 568.583604888121272, 6.668020041033742 ],
+					"midpoints" : [ 568.583604888121272, 1114.70374730353069, 35.430817346771562, 1114.70374730353069, 35.430817346771562, 6.668020041033742, 561.583604888121272, 6.668020041033742 ],
 					"source" : [ "obj-57", 1 ]
 				}
 
@@ -306,7 +306,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 4 ],
-					"midpoints" : [ 1218.028039634227753, 1053.370414705321309, 1218.028039634227753, 1053.370414705321309 ],
+					"midpoints" : [ 1201.228039634227571, 1053.370414705321309, 1218.028039634227753, 1053.370414705321309 ],
 					"source" : [ "obj-65", 4 ]
 				}
 
@@ -314,7 +314,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 3 ],
-					"midpoints" : [ 939.694710457324959, 1042.037081034228322, 939.694710457324959, 1042.037081034228322 ],
+					"midpoints" : [ 927.09471045732505, 1042.037081034228322, 939.694710457324959, 1042.037081034228322 ],
 					"source" : [ "obj-65", 3 ]
 				}
 
@@ -322,7 +322,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 2 ],
-					"midpoints" : [ 661.361381280422279, 1027.370413930460927, 661.361381280422279, 1027.370413930460927 ],
+					"midpoints" : [ 652.961381280422188, 1027.370413930460927, 661.361381280422279, 1027.370413930460927 ],
 					"source" : [ "obj-65", 2 ]
 				}
 
@@ -330,7 +330,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 1 ],
-					"midpoints" : [ 383.028052103519485, 1010.037080080554006, 383.028052103519485, 1010.037080080554006 ],
+					"midpoints" : [ 378.82805210351944, 1010.037080080554006, 383.028052103519485, 1010.037080080554006 ],
 					"source" : [ "obj-65", 1 ]
 				}
 
@@ -493,6 +493,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "djazz.audio.buffer_view.maxpat",
+				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
+				"patcherrelativepath" : "./audio",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "djazz.audio.improviser.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
 				"patcherrelativepath" : "./audio",
@@ -501,13 +508,6 @@
 			}
 , 			{
 				"name" : "djazz.audio.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
-				"patcherrelativepath" : "./audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.audio.record_view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
 				"patcherrelativepath" : "./audio",
 				"type" : "JSON",
@@ -529,13 +529,6 @@
 			}
 , 			{
 				"name" : "djazz.audio.view.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
-				"patcherrelativepath" : "./audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.audio.view.play.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
 				"patcherrelativepath" : "./audio",
 				"type" : "JSON",

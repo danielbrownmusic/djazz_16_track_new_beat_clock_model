@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 316.0, 122.0, 862.0, 318.0 ],
+		"rect" : [ 316.0, 122.0, 1243.0, 615.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,19 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "",
+					"id" : "obj-4",
+					"index" : 0,
+					"maxclass" : "inlet",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 14.0, 12.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 3 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -54,7 +67,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 159.0, 100.0, 73.0, 100.0 ],
+					"patching_rect" : [ 208.0, 175.0, 73.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 149.92892124314767, 84.736948938488013, 73.0, 100.0 ],
 					"varname" : "audio_track_3",
@@ -78,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 84.0, 100.0, 73.0, 100.0 ],
+					"patching_rect" : [ 133.0, 175.0, 73.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 74.92892124314767, 84.736948938488013, 73.0, 100.0 ],
 					"varname" : "audio_track_2",
@@ -102,7 +115,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 9.0, 100.0, 73.0, 100.0 ],
+					"patching_rect" : [ 58.0, 175.0, 73.0, 100.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.07107875685233, 84.736948938488013, 73.0, 100.0 ],
 					"varname" : "audio_track_1",
@@ -126,7 +139,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 9.0, 67.0, 806.999999642372131, 25.0 ],
+					"patching_rect" : [ 58.0, 142.0, 806.999999642372131, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.07107875685233, 56.736948938488013, 909.999999642372131, 26.0 ],
 					"varname" : "audio_improviser_3",
@@ -150,7 +163,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 9.0, 36.0, 806.999999642372131, 25.0 ],
+					"patching_rect" : [ 58.0, 111.0, 806.999999642372131, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.07107875685233, 28.736948938488013, 909.999999642372131, 26.0 ],
 					"varname" : "audio_improviser_2",
@@ -174,7 +187,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 9.0, 9.0, 806.999999642372131, 24.0 ],
+					"patching_rect" : [ 58.0, 84.0, 806.999999642372131, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ -0.07107875685233, 0.736948938488013, 909.999999642372131, 26.0 ],
 					"varname" : "audio_improviser_1",
@@ -183,7 +196,31 @@
 
 			}
  ],
-		"lines" : [  ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-80", 0 ],
+					"order" : 2,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-81", 0 ],
+					"order" : 1,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"order" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+ ],
 		"dependency_cache" : [ 			{
 				"name" : "djazz.audio.view.improviser.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",

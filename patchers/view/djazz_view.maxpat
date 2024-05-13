@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 4,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 243.0, 145.0, 1350.0, 938.0 ],
+		"rect" : [ 159.0, 122.0, 1812.0, 1047.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1002.499952673912048, 916.206883403969414, 30.0, 30.0 ]
+					"patching_rect" : [ 981.499952673912048, 916.206883403969414, 30.0, 30.0 ]
 				}
 
 			}
@@ -104,9 +104,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 23.166636943817139, 127.018092805316883, 998.33331573009491, 243.083328931076039 ],
+					"patching_rect" : [ 23.166636943817139, 127.018092805316883, 977.33331573009491, 273.083328931076039 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.096281152755523, 98.049952780380806, 931.333333373069763, 235.083328931076039 ],
+					"presentation_rect" : [ 9.096281152755523, 605.716617142334599, 978.333333373069877, 258.083328931076039 ],
 					"varname" : "audio",
 					"viewvisibility" : 1
 				}
@@ -245,7 +245,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 2807.231648445129395, 62.684759909084278, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 837.229541760475058, 67.983286177292428, 100.0, 20.0 ],
+					"presentation_rect" : [ 9.096281152755523, 97.849951063767037, 124.0, 20.0 ],
 					"text" : "debug view",
 					"texton" : "debug view"
 				}
@@ -384,7 +384,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1704.715335965156555, 347.598175150212228, 456.5, 238.083328931076039 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 443.459163152755536, 372.466673791408539, 444.0, 228.333332180976868 ],
+					"presentation_rect" : [ 878.472045069309047, 6.000006020069122, 444.0, 228.333332180976868 ],
 					"varname" : "midi_player_1",
 					"viewvisibility" : 1
 				}
@@ -432,7 +432,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 1259.351202249526978, 616.032970401955254, 1378.864167213439941, 306.17391300201416 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.096281152755523, 606.483334808094014, 1378.029635113269705, 326.999999046325684 ],
+					"presentation_rect" : [ 9.096281152755523, 273.383284961357731, 1378.029635113269705, 330.333332180976868 ],
 					"varname" : "midi_out_bank",
 					"viewvisibility" : 1
 				}
@@ -526,7 +526,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 1143.267929553985596, 323.223172006791174, 416.652175903320312, 262.458332074497093 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 25.096281152755523, 341.000006020069122, 416.362882000000013, 259.799999952316284 ],
+					"presentation_rect" : [ 458.109163069309034, 6.000006020069122, 416.362882000000013, 259.799999952316284 ],
 					"varname" : "master",
 					"viewvisibility" : 1
 				}
@@ -839,7 +839,7 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz.audio.record_view.maxpat",
+				"name" : "djazz.audio.buffer_view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
 				"patcherrelativepath" : "../audio",
 				"type" : "JSON",
@@ -860,13 +860,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "djazz.audio.view.play.maxpat",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
-				"patcherrelativepath" : "../audio",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "djazz.audio_track_view.maxpat",
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/audio",
 				"patcherrelativepath" : "../audio",
@@ -878,13 +871,6 @@
 				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/patchers/factor_oracle_player",
 				"patcherrelativepath" : "../factor_oracle_player",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djazz.get_song_dict_file_path.js",
-				"bootpath" : "~/Documents/Max 8/Projects/djazz_16_track_new_beat_clock_model/code/file_io",
-				"patcherrelativepath" : "../../code/file_io",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
